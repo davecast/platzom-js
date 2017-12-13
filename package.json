@@ -1,0 +1,33 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davecast/platzom-js.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "David Castillo <davecast.frontend@gmail.com> (https://davecast.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davecast/platzom-js/issues"
+  },
+  "homepage": "https://github.com/davecast/platzom-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
